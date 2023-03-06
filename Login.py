@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Firefox()
 driver.get("https://sipmen.bps.go.id/regsosek/login")
 # variable login
-usernameData = '211709670@stis.ac.id'
-passwordData = '12345678'
+usernameData = 'username'
+passwordData = 'password'
 
 username = driver.find_element(By.ID, "email")
 username.send_keys(usernameData)
