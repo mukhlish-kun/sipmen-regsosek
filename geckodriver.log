@@ -4016,3 +4016,7 @@ Dynamically enable window occlusion 0
 Read port: 58841
 WebDriver BiDi listening on ws://127.0.0.1:58831
 1678083334828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mukhl\\AppData\\Local\\Temp\\rust_mozprofileHfZfZX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58831/devtools/browser/041453ca-8544-498f-9886-f78af944cfa5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sipmen.bps.go.id."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sipmen.bps.go.id."
