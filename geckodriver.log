@@ -4005,3 +4005,14 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:51620/devtools/browser/c158386b-6215-4ef5-a974-3a41f68ac5aa
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sipmen.bps.go.id."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sipmen.bps.go.id."
+1678083335333	Marionette	INFO	Stopped listening on port 51627
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58831" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukhl\\AppData\\Local\\Temp\\rust_mozprofileHfZfZX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678083334631	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678083334641	Marionette	INFO	Listening on port 58841
+Read port: 58841
+WebDriver BiDi listening on ws://127.0.0.1:58831
+1678083334828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
