@@ -19,7 +19,7 @@ with open('batching.csv') as file_obj:
     # using reader object
     for row in reader_obj:
         #continue last no batch with check
-        if int(row['no_batch'])>61070718:
+        if int(row['no_batch'])>61071399:
         
             #url batching
             driver.get("https://sipmen.bps.go.id/regsosek/cetak-box/tambah-generate-box-kab")
@@ -42,7 +42,7 @@ with open('batching.csv') as file_obj:
             selectDesa.select_by_value(row["kd_desa"])
 
             #sls
-            pilihSls= driver.find_element(By.ID, "kd_sls")
+            pilihSls = driver.find_element(By.ID, "kd_sls")
             selectSls = Select(pilihSls)
             time.sleep(2)
             selectSls.select_by_value(row["kdsls"])
